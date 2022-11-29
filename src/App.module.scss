@@ -1,0 +1,21 @@
+@import "./variables";
+
+
+.App {
+    width: 100%;
+    min-height: 100vh;
+
+    background-color: $white-color;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    main {
+        flex: 1;
+        color: $white-color;
+
+        display: flex;
+        flex-direction: column;
+    }
+}

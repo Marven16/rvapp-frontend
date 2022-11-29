@@ -1,0 +1,42 @@
+@import "../../variables";
+
+
+.service-form-section {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+
+    h2{
+        color: $black-color;
+        font-family: $them-alter-font;
+        font-size: 1.7rem;
+
+    }
+
+    form {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        font-family: $them-alter-font;
+
+        select {
+            height: 1.9rem;
+        }
+
+        input {
+            height: 1.9rem;
+        }
+
+        .save_form {
+            display: flex;
+            justify-content: flex-end;
+            Button{
+                cursor: pointer;
+            }
+        }
+    }
+}

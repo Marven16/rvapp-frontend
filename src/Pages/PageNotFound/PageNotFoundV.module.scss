@@ -1,0 +1,16 @@
+@import "../../variables";
+
+
+.NotFound {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        color: $black-color;
+        font-family: $theme-main-font;
+        text-shadow: 1px 16px 15px $black-color;
+        font-size: 2.5rem;
+    }
+
+}
